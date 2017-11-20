@@ -26,11 +26,9 @@ $(document).ready(function(){
         });
     }
 
-    createServer("click","#delete-room","data-roomid","./connections/deleteroom.php");
-    createServer(null,null,null,null,null,"click","#stop-room-creation",null,".room-creation");
-    createServer("click",".player","id","./playerInfo.php",".playerInfo",null,null,null,null,".playerInfo");
+    createServer("click","#join-room","id","./connections/joinroom.php");
+    createServer(null,null,null,null,null,"click","#cancel",null,".userpage");
+    createServer("click",".div","id","./divInfo.php","divInfo.php",null,null,null,null,".divInfo");
 
-    noRefresh("click","#close-room-creation",null,".room-creation");
-    noRefresh("click",".card-x",null,".playerInfo");
-    noRefresh("click","#new-room",".room-creation",null);
+    noRefresh("click",".x-btn",null,".divInfo");
 });
