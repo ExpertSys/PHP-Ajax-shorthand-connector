@@ -11,12 +11,7 @@ $(document).ready(function(){
             });
         });
     }
-    function checkObjAttr(type,obj,attr)
-    {
-        $(document).on(type,obj, function(){
-            alert($(this).attr(attr));
-        });
-    }
+    
     function noRefresh(type,obj,show,hide)
     {
         $(document).on(type,obj, function(e){
