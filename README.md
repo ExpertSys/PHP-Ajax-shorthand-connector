@@ -49,3 +49,5 @@ Parameter Meanings
 Example:
 
 noRefresh("click",".x-btn",null,".divInfo");
+
+Quite a few optimizations can be made.
