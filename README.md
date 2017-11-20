@@ -47,4 +47,5 @@ Parameter Meanings
 4. Hide 
 
 Example:
+
 noRefresh("click",".x-btn",null,".divInfo");
