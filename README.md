@@ -33,6 +33,7 @@ Parameter Meanings
 10. DataURL if you want to post data from a successful $.post
 
 Few Examples:
+
 createServer("click","#join-room","id","./connections/joinroom.php");
 createServer(null,null,null,null,null,"click","#cancel",null,".userpage");
 createServer("click",".div","id","./divInfo.php","divInfo.php",null,null,null,null,".divInfo");
