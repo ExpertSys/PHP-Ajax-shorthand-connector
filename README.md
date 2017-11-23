@@ -4,10 +4,15 @@ Write 1 line to pass multiple information to php file
 Normally to pass information to a .php file using jquery ajax, you would generally write:
 
 $(document).on("click","elem, function(e){
+
 e.preventDefault();
+
 var id = $(this).attr(obj_id);
+
             $.post("file.php", {id: id}, function(data){
+            
                 $("className").html(data)
+                
             });
 });
 
